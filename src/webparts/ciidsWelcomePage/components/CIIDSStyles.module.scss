@@ -147,6 +147,7 @@
   padding-left: 10px;
   height: 72px;
   margin-left: 8vw;
+  vertical-align: bottom;
 }
 
 .imgContainer {
@@ -320,7 +321,15 @@
   background-color: #ffffff;
   height: 100%;
 }
+.cuiline {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
 
+.cuitext {
+  text-align: end;
+}
 // dropdown menus for header
 .dropbtn {
   background-color: #0f2938;
@@ -334,6 +343,7 @@
 .dropdown {
   position: relative;
   display: inline-block;
+  padding-bottom: 7px;
 }
 
 .dropdowncontent {
