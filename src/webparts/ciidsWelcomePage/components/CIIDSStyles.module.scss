@@ -1,0 +1,359 @@
+:global {
+  #workbenchPageContent,
+  .CanvasComponent.LCS .CanvasZone {
+    min-width: 100% !important;
+  }
+}
+
+.accentBar {
+  background-color: #ffb900;
+  width: 100%;
+  height: 20px;
+}
+
+.branchHeader {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color:#ffffff;
+  justify-content: flex-end;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  
+}
+
+.buttonGridItem {
+  padding-top: 10px;
+  background-color: #0f2938;
+  text-align: center;
+  color: white;
+  font-size: 11px;
+  font-weight: 400;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.CIIDSBlurb {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.CIIDSBlurbHeader {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffb900;
+  justify-content: center;
+  background-color: #0f2938;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.directorGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2px;
+}
+
+.fadeBar {
+  background: linear-gradient(to left, #ffb900, #0f2938);
+  height: 30px;
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+.fadeToTransparent {
+  background-color: #0f2938;
+}
+
+.fixedBottomBar {
+  background-color: #0f2938;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+}
+
+.headerBackground {
+  width: 100%;
+  background-color: #0f2938;
+  align-content: center;
+}
+
+.headerBar {
+  margin: auto;
+  width: 80%;
+  background-color: #0f2938;
+  width: 100%;
+}
+
+.headerText {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-size: 36px;
+  color: #0f2938;
+  text-align: center;
+  font-weight: 400;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: #ffffff;
+  width: 80%;
+  margin: auto;
+}
+
+.headshotBox {
+  height: 96px;
+  width: 96px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #0f2938;
+}
+
+.headshotBox:hover {
+  border-color:#ffb900;
+  border-width: 4px;
+}
+
+.headshotDiv {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+.heroContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.heroImage {
+  width: 100%;
+    // Without height undefined it won't work
+    height: 'undefined';
+    margin-left: 10px;
+}
+
+.imgBox {
+  background-color: #0f2938;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  height: 72px;
+  margin-left: 8vw;
+}
+
+.imgContainer {
+  max-width: 100%;
+  height: auto;
+  flex: 1 1 auto;
+  background-color: #0f2938;
+  object-fit: cover;
+}
+
+.innerGrid {
+  background-color: #ffffff;
+  justify-content: center;
+}
+
+.lightBackground {
+  background-color: #D3E0E7;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.mainBackground {
+  background-color: #0f2938;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.mainPage {
+  width: 75vw;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.managementHeader {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: '800';
+  font-size: 24px;
+  color:#0f2938;
+  text-align: center;
+}
+
+.navairLine {
+  color: #0f2938;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 8vw;
+}
+
+.outerGrid {
+  display: grid;
+  justify-content: center;
+  height: 100vh;
+  background-color: #0f2938;
+}
+
+.textBlurb {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.textPadding {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.whiteBand {
+  background-color: #ffffff;
+}
+
+// FLEX STYLES
+.flexappbuttons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: auto;
+  place-content: space-evenly;
+  flex-shrink: 1;
+}
+
+.flexbodycontent {
+  // display: flex;
+  // flex-wrap: wrap;
+  // flex-direction: row;
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  background-color: #0f2938;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.flexcontainerresources {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexinnerleft {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 10px;
+  width: 33.3%;
+  background-color: #ffffff;
+}
+
+.flexmain {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: auto;
+  width: 80%;
+  background-color: #ffffff;
+  height: 100%;
+}
+
+.flexcarousel {
+  display: flex;
+  width: 100%;
+}
+
+.flexfooter {
+  display: flex;
+  width: 80%;
+}
+
+.flexleft {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-grow: 0;
+  margin: auto;
+  margin-top: 10px;
+  width: 75%;
+  background-color: #ffffff;
+}
+
+.flexmid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 10px;
+  width: 66.6%;
+  background-color: #ffffff;
+}
+
+.flexPOCs {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.flexright {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 25%;
+  background-color: #ffffff;
+  height: 100%;
+}
+
+// dropdown menus for header
+.dropbtn {
+  background-color: #0f2938;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdowncontent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdowncontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdowncontent a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdowncontent {display: block;}
+
+// .dropdown:hover .dropbtn {background-color: #3e8e41;}

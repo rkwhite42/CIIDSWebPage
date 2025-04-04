@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ciids-start-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ciidsStartPage/CiidsStartPageWebPart.js",
+          "manifest": "./src/webparts/ciidsStartPage/CiidsStartPageWebPart.manifest.json"
+        }
+      ]
+    },
+    "ciids-welcome-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ciidsWelcomePage/CiidsWelcomePageWebPart.js",
+          "manifest": "./src/webparts/ciidsWelcomePage/CiidsWelcomePageWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CiidsStartPageWebPartStrings": "lib/webparts/ciidsStartPage/loc/{locale}.js",
+    "CiidsWelcomePageWebPartStrings": "lib/webparts/ciidsWelcomePage/loc/{locale}.js"
+  }
+}
