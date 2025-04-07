@@ -3,7 +3,9 @@ import { Typography, Box } from "@mui/material";
 import ciidsstyles from "./CIIDSStyles.module.scss";
 import bear_sq from "../assets/bear_sq.jpg";
 import jonathan_sq from "../assets/jonathan_sq.jpg";
-import placeholder from "../assets/placeHolder.png";
+import sara_sq from "../assets/SaraButcher_sq.jpg";
+import allen_sq from "../assets/AllenFrere_sq.png";
+import brooke_sq from "../assets/BrookeHiggsTurner_sq.jpg";
 import LibraryBooksIcon from "@mui/icons-material/LibraryBooks";
 import SchemaIcon from "@mui/icons-material/Schema";
 import ArticleIcon from "@mui/icons-material/Article";
@@ -123,7 +125,11 @@ export default function AppButtons() {
                 borderRadius: "3px",
               }}
             >
-              <img className={ciidsstyles.imgContainer} src={jonathan_sq} />
+              <img
+                className={ciidsstyles.imgContainer}
+                src={jonathan_sq}
+                alt="Division Director Jonathan Wilt"
+              />
             </Box>
             <Typography
               style={{
@@ -133,7 +139,8 @@ export default function AppButtons() {
               }}
             >
               Jonathan Wilt <br />
-              301-995-8865
+              301-995-8865 <br />
+              jonathan.a.wilt.civ@us.navy.mil
             </Typography>
           </div>
         </div>
@@ -160,7 +167,11 @@ export default function AppButtons() {
                 borderRadius: "3px",
               }}
             >
-              <img className={ciidsstyles.imgContainer} src={bear_sq} />
+              <img
+                className={ciidsstyles.imgContainer}
+                src={bear_sq}
+                alt="Chief Engineer Robert 'Bear' Sidell"
+              />
             </Box>
             <Typography
               style={{
@@ -170,7 +181,8 @@ export default function AppButtons() {
               }}
             >
               Robert &quot;Bear&quot; Sidell <br />
-              240-587-1402
+              240-587-1402 <br />
+              robert.l.sidell2.civ@us.navy.mil
             </Typography>
           </div>
         </div>
@@ -197,7 +209,11 @@ export default function AppButtons() {
                 borderRadius: "3px",
               }}
             >
-              <img className={ciidsstyles.imgContainer} src={placeholder} />
+              <img
+                className={ciidsstyles.imgContainer}
+                src={sara_sq}
+                alt="Acquisition Manager Sara Butcher"
+              />
             </Box>
             <Typography
               style={{
@@ -207,7 +223,8 @@ export default function AppButtons() {
               }}
             >
               Sara Butcher <br />
-              301-995-8804
+              301-995-8804 <br />
+              sara.e.butcher3.civ@us.navy.mil
             </Typography>
           </div>
         </div>
@@ -234,7 +251,11 @@ export default function AppButtons() {
                 borderRadius: "3px",
               }}
             >
-              <img className={ciidsstyles.imgContainer} src={placeholder} />
+              <img
+                className={ciidsstyles.imgContainer}
+                src={brooke_sq}
+                alt="Business Financial Manager Brooke Shegogue"
+              />
             </Box>
             <Typography
               style={{
@@ -243,8 +264,9 @@ export default function AppButtons() {
                 fontSize: "12px",
               }}
             >
-              Brooke Higgs-Turner <br />
-              410-474-7223
+              Brooke Shegogue <br />
+              410-474-7223 <br />
+              brooke.n.shegogue.civ@us.navy.mil
             </Typography>
           </div>
         </div>
@@ -271,7 +293,11 @@ export default function AppButtons() {
                 borderRadius: "3px",
               }}
             >
-              <img className={ciidsstyles.imgContainer} src={placeholder} />
+              <img
+                className={ciidsstyles.imgContainer}
+                src={allen_sq}
+                alt="Division Operations Manager Allen Frere"
+              />
             </Box>
             <Typography
               style={{
@@ -281,7 +307,8 @@ export default function AppButtons() {
               }}
             >
               Allen Frere <br />
-              301-995-6567
+              301-995-6567 <br />
+              allen.c.frere.civ@us.navy.mil
             </Typography>
           </div>
         </div>

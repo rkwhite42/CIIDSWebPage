@@ -3,6 +3,9 @@
   .CanvasComponent.LCS .CanvasZone {
     min-width: 100% !important;
   }
+  .simpleFooterContainer {
+    visibility: hidden;
+  }
 }
 
 .accentBar {
@@ -75,7 +78,7 @@
 .fixedBottomBar {
   background-color: #0f2938;
   height: 100px;
-  position: fixed;
+  // position: fixed;
   bottom: 0;
   width: 100%;
   justify-content: center;
@@ -277,7 +280,6 @@
 }
 
 .flexcarousel {
-  display: flex;
   width: 100%;
 }
 
@@ -372,6 +374,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 400px;
+  margin: 10px;
 }
 
 .slide {
