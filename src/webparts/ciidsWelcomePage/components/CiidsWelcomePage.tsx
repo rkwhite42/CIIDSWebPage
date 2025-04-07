@@ -117,7 +117,11 @@ const CiidsStartPage = () => {
               </div>
               <div className={ciidsstyles.flexmid}>
                 <div>
-                  <img src={building} className={ciidsstyles.heroImage} />
+                  <img
+                    src={building}
+                    className={ciidsstyles.heroImage}
+                    alt="CI&IDS Main Building"
+                  />
                 </div>
               </div>
               <div className={ciidsstyles.flexcarousel}>
@@ -128,33 +132,34 @@ const CiidsStartPage = () => {
               <Resources />
             </div>
           </div>
-        </div>
-        <Grid container size={12} className={ciidsstyles.fixedBottomBar}>
-          <Grid direction="row" spacing={10} container size={10}>
-            <Grid size={4}>
-              <p className={ciidsstyles.CIIDSBlurbHeader}>IDENTIFICATION</p>
-              <p className={ciidsstyles.CIIDSBlurb}>
-                National and international, civil and military coordination for
-                interoperability for IFF and ATC solutions.
-              </p>
-            </Grid>
-            <Grid size={4}>
-              <p className={ciidsstyles.CIIDSBlurbHeader}>INTEGRATION</p>
-              <p className={ciidsstyles.CIIDSBlurb}>
-                Production, testing, installation, training and certification of
-                multiple systems and products for diverse air, ship and ground
-                platforms.
-              </p>
-            </Grid>
-            <Grid size={4}>
-              <p className={ciidsstyles.CIIDSBlurbHeader}>INNOVATION</p>
-              <p className={ciidsstyles.CIIDSBlurb}>
-                Developing competitive, advanced engineering and technical
-                solutions to meet current and future demands.
-              </p>
+
+          <Grid container size={12} className={ciidsstyles.fixedBottomBar}>
+            <Grid direction="row" spacing={10} container size={10}>
+              <Grid size={4}>
+                <p className={ciidsstyles.CIIDSBlurbHeader}>IDENTIFICATION</p>
+                <p className={ciidsstyles.CIIDSBlurb}>
+                  National and international, civil and military coordination
+                  for interoperability for IFF and ATC solutions.
+                </p>
+              </Grid>
+              <Grid size={4}>
+                <p className={ciidsstyles.CIIDSBlurbHeader}>INTEGRATION</p>
+                <p className={ciidsstyles.CIIDSBlurb}>
+                  Production, testing, installation, training and certification
+                  of multiple systems and products for diverse air, ship and
+                  ground platforms.
+                </p>
+              </Grid>
+              <Grid size={4}>
+                <p className={ciidsstyles.CIIDSBlurbHeader}>INNOVATION</p>
+                <p className={ciidsstyles.CIIDSBlurb}>
+                  Developing competitive, advanced engineering and technical
+                  solutions to meet current and future demands.
+                </p>
+              </Grid>
             </Grid>
           </Grid>
-        </Grid>
+        </div>
       </div>
     </FullScreen>
   );
