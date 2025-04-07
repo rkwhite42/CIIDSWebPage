@@ -55,17 +55,41 @@ const CiidsStartPage = () => {
           <div className={ciidsstyles.dropdown}>
             <button className={ciidsstyles.dropbtn}>Helpful Links</button>
             <div className={ciidsstyles.dropdowncontent}>
-              <a href="#">DAU</a>
-              <a href="#">DTS</a>
-              <a href="#">eDACM</a>
-              <a href="#">ESAMS</a>
-              <a href="#">ISEE RIO</a>
-              <a href="#">NAVAIRU</a>
-              <a href="#">NAVY ERP</a>
-              <a href="#">NFAAS</a>
-              <a href="#">STRL</a>
-              <a href="#">SWAT</a>
-              <a href="#">TWMS</a>
+              <a
+                href="https://dtsproweb.defensetravel.osd.mil/dts-app/pubsite/all/view/"
+                target="_new"
+                title="Defense Traval System"
+              >
+                DTS
+              </a>
+              <a
+                href="https://esams.cnic.navy.mil/ESAMS_Gen_2/Login"
+                target="_new"
+                title="ESAMS"
+              >
+                ESAMS
+              </a>
+              <a
+                href="https://isee.nswc.navy.mil/navair/index.cfm/rio/home"
+                target="_new"
+                title="ISEE Collaborative"
+              >
+                ISEE RIO
+              </a>
+              <a
+                href="https://navyfamily.navy.mil/cas/login"
+                target="_new"
+                title="Navy Family Accountability and Assessment System"
+              >
+                NFAAS
+              </a>
+              <a
+                href="https://twms.dc3n.navy.mil/my.policy"
+                target="_new"
+                title="Total Workforce Management Services"
+              >
+                TWMS
+              </a>
               <a href="#">WOLF PROJECT</a>
               <a href="#">DATABASE</a>
             </div>
