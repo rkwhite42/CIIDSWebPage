@@ -3,7 +3,7 @@
   "solution": {
     "name": "ciids-web-page-client-side-solution",
     "id": "c562a095-20a9-40b4-885f-63a75726fda1",
-    "version": "1.0.0.0",
+    "version": "1.0.3.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
@@ -30,7 +30,7 @@
         "title": "ciids-web-page Feature",
         "description": "The feature that activates elements of the ciids-web-page solution.",
         "id": "46f0be09-a9d9-4781-a53f-13ef8de2df11",
-        "version": "1.0.0.0"
+        "version": "1.0.3.0"
       }
     ]
   },

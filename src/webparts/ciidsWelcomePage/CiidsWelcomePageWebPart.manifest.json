@@ -3,6 +3,7 @@
   "id": "cc086583-b210-49f9-b06d-aadf032aac60",
   "alias": "CiidsWelcomePageWebPart",
   "componentType": "WebPart",
+  "supportsFullBleed": true,
 
   // The "*" signifies that the version should be taken from the package.json
   "version": "*",
