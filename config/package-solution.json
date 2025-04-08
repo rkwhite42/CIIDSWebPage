@@ -8,18 +8,22 @@
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
     "developer": {
-      "name": "",
+      "name": "CIIDS-Web-Page",
       "websiteUrl": "",
       "privacyUrl": "",
       "termsOfUseUrl": "",
-      "mpnId": "Undefined-1.20.0"
+      "mpnId": "Undefined-1.20.0",
+      "description": "A web page to serve as the entry point for the CI&IDS SharePoint Online site. This application provides links to applications that perform functions for users of the CI&IDS SharePoint Online site.",
+      "publisher": "NAVAIR NAWCAD WOLF TW12 Combat Integration & Identification Systems Division",
+      "image1Url": "https://4fty8x.sharepoint.com/",
+      "supportUrl": "https://flankspeed.sharepoint-mil.us.mcas-gov.us/sites/SPFx_App_CMT/SitePages/SPFx-Support-and-Information.aspx"
     },
     "metadata": {
       "shortDescription": {
-        "default": "ciids-web-page description"
+        "default": "A web page to serve as the entry point for the CI&IDS SharePoint Online site"
       },
       "longDescription": {
-        "default": "ciids-web-page description"
+        "default": "A web page to serve as the entry point for the CI&IDS SharePoint Online site. This application provides links to applications that perform functions for users of the CI&IDS SharePoint Online site."
       },
       "screenshotPaths": [],
       "videoUrl": "",
