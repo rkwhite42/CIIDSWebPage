@@ -13,17 +13,17 @@
   // Components that allow authors to embed arbitrary script code should set this to true.
   // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
   "requiresCustomScript": false,
-  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab" ],
   "supportsThemeVariants": true,
 
   "preconfiguredEntries": [{
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Advanced
     "group": { "default": "Advanced" },
-    "title": { "default": "CIIDSWelcomePage" },
-    "description": { "default": "CIIDSWelcomePage description" },
-    "officeFabricIconFontName": "Page",
+    "title": { "default": "NAVAIR NAWCAD WOLF TW12" },
+    "description": { "default": "The entry point for the NAVAIR NAWCAD WOLF TW12 SharePoint site." },
+    "iconImageUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCABgAGADASIAAhEBAxEB/8QAHAABAAMAAwEBAAAAAAAAAAAAAAQGBwMFCAIJ/8QALxAAAQQBAgQFAwMFAAAAAAAAAQACAwQRBRIGEyEiBxQxQVEyYXEIFSMWUoGhov/EABkBAQADAQEAAAAAAAAAAAAAAAACAwQBBf/EACMRAQABAwIGAwAAAAAAAAAAAAABAhESAwQTITEyQZFCUeH/2gAMAwEAAhEDEQA/AP1TREQEREBERAREQEREBERAREXAREXQREQEREBERAREQQdQ1qlpUtaK1ZjintOLIInPAdK4AuIaD64AJPwvgasSN4gPL/uyfT842/8AWPus58SvD7+vJYNQgnlg1KsWvqytftdEQQWlvwe6M/kn4C7fhbXZdRpNj1GJkGrwNHmQG9T0zzG9oOCBuxvyMHBJHXyo3WpxaqKotHifv9Z86spiY5eF5rW47TcsyHAAlrh1GfT8j7jocLnWP0fFC7A7Ti7SJLFu09gdFE1zPKve4h0cmRklhY4SOAGC6E7e44m2PGyzSjnnscMX44m1Ip2QAOMxe90nae3GNrWAnPa+RrT0O4bqNTKObRETLU0VDl8R71eKlK/QpJGTvmZKIZHOEPLkkaSSWDJLY+gwO5wGSOq6VnjlNHRhntcLXq73CuHsEocN8uwctvQO3B0g+prchr8dW7VZkljLVkWaW/F63WtTRjhyzJHA2V0jo3Pc5zmGMbGDYMkl7/8ADMjcHZEi14o3Tomr262g2Wy1GgQGQFzJ3bo2ucOjez+QFriQHAOJ2AZTIxloaKDoeqDW9Foai2J8DbcDJxFK0tc0OaDgggEHr6EA/IB6Kcu3REREuK+9hqzPjyGlpDW5yT7bTj36MZ+SHj1wo3l6xmbII2CYDZjc3djG3H1Z9Omdmce2VYrNSO0AHgggEZHwfUH5B+D0UX9rftDeedvx3+nxjdj/AFj7LJVozfkrmllEOl8VeW0upXgn8zVixG2R0RhYfIvYS453bxNLIMemCzKtleHi2TZK63a2MMb2xuigYXjnN3tf0Powu6gj29xlXWtUjqtwwZOANx9cfHToB9gudUaWx4cd8+1VOjj5lmMXCutal5SveNp8MboBNLPyXOeWOtbs5B3N7oSMj3/OJDIeI5dNj89TszajGITE+OKsY6/YwOewEZ3hxeCOgxnGBhaMinGzintqn2lGjEdJlmkNLi4Ry2Cyd2oSSssASclzI80Q1wjz9J5wcME4+n2JJntj4skldIyxbZWjO+COZsHMlbzI+2XDenbzfpwcbeu4K+IuxtLdK6vZwrfKXii5B4neDmn8SXuHaFmhPf1qCtpp4gZWfqet2LJtMMD3xSzNlZA6SOdkoETtkT2uaWhXDiDQvG21q1qpPqXEd3S9L1zSLMOoaf8At9SWzWYXMtNZEARI05bKeY4B3RvLbhzT6nRbrL3lHT4P1Hai23Xv6hd0yaXWGse+tX05zYKxgvZdXeQ4OiMgoj+Ru8e56vDZemS/qDoR6E27LqWqOOpadYuAQ6bEXQSVYDcgdIB/HHHOZ8FsTnENLd4yxx9RolgREUgREQEREBERAREQEREBERAREQEREBERAREQEREH/9k=",
     "properties": {
-      "description": "CIIDSWelcomePage"
+      "description": "CI&IDS Welcome Page"
     }
   }]
 }
