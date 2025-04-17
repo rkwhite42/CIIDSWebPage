@@ -128,19 +128,18 @@ export default function AppButtons() {
               <img
                 className={ciidsstyles.imgContainer}
                 src={jonathan_sq}
-                alt="Division Director Jonathan Wilt"
+                alt="jonathan.a.wilt.civ@us.navy.mil"
               />
             </Box>
             <Typography
               style={{
-                color: "000000",
+                color: "#000000",
                 textAlign: "left",
                 fontSize: "12px",
               }}
             >
               Jonathan Wilt <br />
-              301-995-8865 <br />
-              jonathan.a.wilt.civ@us.navy.mil
+              301-995-8865
             </Typography>
           </div>
         </div>
@@ -170,19 +169,18 @@ export default function AppButtons() {
               <img
                 className={ciidsstyles.imgContainer}
                 src={bear_sq}
-                alt="Chief Engineer Robert 'Bear' Sidell"
+                alt="robert.l.sidell2.civ@us.navy.mil"
               />
             </Box>
             <Typography
               style={{
-                color: "000000",
+                color: "#000000",
                 textAlign: "left",
                 fontSize: "12px",
               }}
             >
               Robert &quot;Bear&quot; Sidell <br />
-              240-587-1402 <br />
-              robert.l.sidell2.civ@us.navy.mil
+              240-587-1402
             </Typography>
           </div>
         </div>
@@ -212,19 +210,18 @@ export default function AppButtons() {
               <img
                 className={ciidsstyles.imgContainer}
                 src={sara_sq}
-                alt="Acquisition Manager Sara Butcher"
+                alt="sara.e.butcher3.civ@us.navy.mil"
               />
             </Box>
             <Typography
               style={{
-                color: "000000",
+                color: "#000000",
                 textAlign: "left",
                 fontSize: "12px",
               }}
             >
               Sara Butcher <br />
-              301-995-8804 <br />
-              sara.e.butcher3.civ@us.navy.mil
+              301-995-8804
             </Typography>
           </div>
         </div>
@@ -254,19 +251,18 @@ export default function AppButtons() {
               <img
                 className={ciidsstyles.imgContainer}
                 src={brooke_sq}
-                alt="Business Financial Manager Brooke Shegogue"
+                alt="brooke.n.shegogue.civ@us.navy.mil"
               />
             </Box>
             <Typography
               style={{
-                color: "000000",
+                color: "#000000",
                 textAlign: "left",
                 fontSize: "12px",
               }}
             >
               Brooke Shegogue <br />
-              410-474-7223 <br />
-              brooke.n.shegogue.civ@us.navy.mil
+              410-474-7223
             </Typography>
           </div>
         </div>
@@ -296,19 +292,18 @@ export default function AppButtons() {
               <img
                 className={ciidsstyles.imgContainer}
                 src={allen_sq}
-                alt="Division Operations Manager Allen Frere"
+                alt="allen.c.frere.civ@us.navy.mil"
               />
             </Box>
             <Typography
               style={{
-                color: "000000",
+                color: "#000000",
                 textAlign: "left",
                 fontSize: "12px",
               }}
             >
               Allen Frere <br />
-              301-995-6567 <br />
-              allen.c.frere.civ@us.navy.mil
+              301-995-6567
             </Typography>
           </div>
         </div>
