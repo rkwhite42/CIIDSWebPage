@@ -24,7 +24,7 @@ const CiidsStartPage = () => {
               <img
                 src={building}
                 className={ciidsstyles.heroImage}
-                alt="CI&IDS Main Building"
+                title="CI&IDS Main Building"
               />
             </div>
           </div>

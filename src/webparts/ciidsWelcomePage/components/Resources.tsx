@@ -33,7 +33,13 @@ export default function AppButtons() {
       </Typography>
 
       <div className={ciidsstyles.flexcontainerresources}>
-        <LibraryBooksIcon style={{ color: "#0f2938", fontSize: "40px" }} />
+        <a
+          href="https://nserc.navy.mil/navair/ci_ids/Policies%20and%20Procedures/default.aspx"
+          target="_new"
+          title="Policies and Procedures"
+        >
+          <LibraryBooksIcon style={{ color: "#0f2938", fontSize: "40px" }} />
+        </a>
         <Typography
           style={{
             color: "#0f2938",
@@ -128,7 +134,7 @@ export default function AppButtons() {
               <img
                 className={ciidsstyles.imgContainer}
                 src={jonathan_sq}
-                alt="jonathan.a.wilt.civ@us.navy.mil"
+                title="jonathan.a.wilt.civ@us.navy.mil"
               />
             </Box>
             <Typography
@@ -169,7 +175,7 @@ export default function AppButtons() {
               <img
                 className={ciidsstyles.imgContainer}
                 src={bear_sq}
-                alt="robert.l.sidell2.civ@us.navy.mil"
+                title="robert.l.sidell2.civ@us.navy.mil"
               />
             </Box>
             <Typography
@@ -210,7 +216,7 @@ export default function AppButtons() {
               <img
                 className={ciidsstyles.imgContainer}
                 src={sara_sq}
-                alt="sara.e.butcher3.civ@us.navy.mil"
+                title="sara.e.butcher3.civ@us.navy.mil"
               />
             </Box>
             <Typography
@@ -251,7 +257,7 @@ export default function AppButtons() {
               <img
                 className={ciidsstyles.imgContainer}
                 src={brooke_sq}
-                alt="brooke.n.shegogue.civ@us.navy.mil"
+                title="brooke.n.shegogue.civ@us.navy.mil"
               />
             </Box>
             <Typography
@@ -292,7 +298,7 @@ export default function AppButtons() {
               <img
                 className={ciidsstyles.imgContainer}
                 src={allen_sq}
-                alt="allen.c.frere.civ@us.navy.mil"
+                title="allen.c.frere.civ@us.navy.mil"
               />
             </Box>
             <Typography
