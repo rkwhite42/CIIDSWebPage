@@ -89,7 +89,7 @@ export default function AppButtons() {
           </Box>
         </a>
         <a
-          href="https://flankspeed.sharepoint-mil.us/sites/NAVAIR_NAWCAD_WOLF_TW12/Lists/OTCTRequest/AllItems.aspx"
+          href="https://nserc.navy.mil/navair/ci_ids/Lists/4112OTCTRequests/"
           target="_new"
           title="Over Time / Comp Time"
         >
@@ -149,7 +149,7 @@ export default function AppButtons() {
           </Box>
         </a>
         <a
-          href="https://flankspeed.sharepoint-mil.us/sites/NAVAIR_NAWCAD_WOLF_TW12/SitePages/CI&IDS-Travel-Team.aspx"
+          href="https://flankspeed.sharepoint-mil.us/sites/NAVAIR_NAWCAD_WOLF_TW12/SitePages/CI&IDS-Travel-Team.aspx?target"
           target="_new"
           title="Travel Apps"
         >

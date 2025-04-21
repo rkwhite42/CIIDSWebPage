@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Typography, Box } from "@mui/material";
+import { Typography, Box, Tooltip } from "@mui/material";
 import ciidsstyles from "./CIIDSStyles.module.scss";
 import bear_sq from "../assets/bear_sq.jpg";
 import jonathan_sq from "../assets/jonathan_sq.jpg";
@@ -123,20 +123,21 @@ export default function AppButtons() {
             Division Director
           </Typography>
           <div style={{ display: "flex", flexWrap: "nowrap" }}>
-            <Box
-              sx={{
-                width: "60px",
-                margin: "3px",
-                paddingRight: "10px",
-                borderRadius: "3px",
-              }}
+            <Tooltip
+              title="jonathan.a.wilt.civ@us.navy.mil"
+              placement="top-start"
             >
-              <img
-                className={ciidsstyles.imgContainer}
-                src={jonathan_sq}
-                title="jonathan.a.wilt.civ@us.navy.mil"
-              />
-            </Box>
+              <Box
+                sx={{
+                  width: "60px",
+                  margin: "3px",
+                  paddingRight: "10px",
+                  borderRadius: "3px",
+                }}
+              >
+                <img className={ciidsstyles.imgContainer} src={jonathan_sq} />
+              </Box>
+            </Tooltip>
             <Typography
               style={{
                 color: "#000000",
@@ -164,20 +165,21 @@ export default function AppButtons() {
             CHENG
           </Typography>
           <div style={{ display: "flex", flexWrap: "nowrap" }}>
-            <Box
-              sx={{
-                width: "60px",
-                margin: "3px",
-                paddingRight: "10px",
-                borderRadius: "3px",
-              }}
+            <Tooltip
+              title="robert.l.sidell2.civ@us.navy.mil"
+              placement="top-start"
             >
-              <img
-                className={ciidsstyles.imgContainer}
-                src={bear_sq}
-                title="robert.l.sidell2.civ@us.navy.mil"
-              />
-            </Box>
+              <Box
+                sx={{
+                  width: "60px",
+                  margin: "3px",
+                  paddingRight: "10px",
+                  borderRadius: "3px",
+                }}
+              >
+                <img className={ciidsstyles.imgContainer} src={bear_sq} />
+              </Box>
+            </Tooltip>
             <Typography
               style={{
                 color: "#000000",
@@ -205,20 +207,21 @@ export default function AppButtons() {
             Acquisition Manager
           </Typography>
           <div style={{ display: "flex", flexWrap: "nowrap" }}>
-            <Box
-              sx={{
-                width: "60px",
-                margin: "3px",
-                paddingRight: "10px",
-                borderRadius: "3px",
-              }}
+            <Tooltip
+              title="sara.e.butcher3.civ@us.navy.mil"
+              placement="top-start"
             >
-              <img
-                className={ciidsstyles.imgContainer}
-                src={sara_sq}
-                title="sara.e.butcher3.civ@us.navy.mil"
-              />
-            </Box>
+              <Box
+                sx={{
+                  width: "60px",
+                  margin: "3px",
+                  paddingRight: "10px",
+                  borderRadius: "3px",
+                }}
+              >
+                <img className={ciidsstyles.imgContainer} src={sara_sq} />
+              </Box>
+            </Tooltip>
             <Typography
               style={{
                 color: "#000000",
@@ -246,20 +249,21 @@ export default function AppButtons() {
             Business Financial Manager
           </Typography>
           <div style={{ display: "flex", flexWrap: "nowrap" }}>
-            <Box
-              sx={{
-                width: "60px",
-                margin: "3px",
-                paddingRight: "10px",
-                borderRadius: "3px",
-              }}
+            <Tooltip
+              title="brooke.n.shegogue.civ@us.navy.mil"
+              placement="top-start"
             >
-              <img
-                className={ciidsstyles.imgContainer}
-                src={brooke_sq}
-                title="brooke.n.shegogue.civ@us.navy.mil"
-              />
-            </Box>
+              <Box
+                sx={{
+                  width: "60px",
+                  margin: "3px",
+                  paddingRight: "10px",
+                  borderRadius: "3px",
+                }}
+              >
+                <img className={ciidsstyles.imgContainer} src={brooke_sq} />
+              </Box>
+            </Tooltip>
             <Typography
               style={{
                 color: "#000000",
@@ -287,20 +291,21 @@ export default function AppButtons() {
             Division Operations Manager
           </Typography>
           <div style={{ display: "flex", flexWrap: "nowrap" }}>
-            <Box
-              sx={{
-                width: "60px",
-                margin: "3px",
-                paddingRight: "10px",
-                borderRadius: "3px",
-              }}
+            <Tooltip
+              title="allen.c.frere.civ@us.navy.mil"
+              placement="top-start"
             >
-              <img
-                className={ciidsstyles.imgContainer}
-                src={allen_sq}
-                title="allen.c.frere.civ@us.navy.mil"
-              />
-            </Box>
+              <Box
+                sx={{
+                  width: "60px",
+                  margin: "3px",
+                  paddingRight: "10px",
+                  borderRadius: "3px",
+                }}
+              >
+                <img className={ciidsstyles.imgContainer} src={allen_sq} />
+              </Box>
+            </Tooltip>
             <Typography
               style={{
                 color: "#000000",
