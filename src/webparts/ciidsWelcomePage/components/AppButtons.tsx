@@ -119,8 +119,10 @@ export default function AppButtons() {
           </Box>
         </a>
         <a
-          href="https://flankspeed.sharepoint-mil.us/sites/NAVAIR_NAWCAD_WOLF_TW12/Lists/GraphicsRequest/AllItems.aspx"
-          target="_new"
+          href="https://flankspeed.sharepoint-mil.us/sites/NAVAIR_NAWCAD_WOLF_TW12/Lists/GraphicsRequest/AllItems.aspx?target=%27_new%27"
+          data-interception="off"
+          target="_blank"
+          rel="noopener noreferrer"
           title="Graphics Request"
         >
           <Box
@@ -149,8 +151,10 @@ export default function AppButtons() {
           </Box>
         </a>
         <a
-          href="https://flankspeed.sharepoint-mil.us/sites/NAVAIR_NAWCAD_WOLF_TW12/SitePages/CI&IDS-Travel-Team.aspx?target"
-          target="_new"
+          href="https://flankspeed.sharepoint-mil.us/sites/NAVAIR_NAWCAD_WOLF_TW12/SitePages/CI&IDS-Travel-Team.aspx?"
+          data-interception="off"
+          target="_blank"
+          rel="noopener noreferrer"
           title="Travel Apps"
         >
           <Box
