@@ -3,8 +3,9 @@ import { Typography } from "@mui/material";
 import { useState } from "react";
 import ReactSimplyCarousel from "react-simply-carousel";
 import ciidsstyles from "./CIIDSStyles.module.scss";
-import carousel01 from "./../assets/Carousel_01.png";
-import carousel02 from "./../assets/carousel_02.jpg";
+import carousel01 from "./../assets/Carousel01.png";
+import carousel02 from "./../assets/carousel02.png";
+import carousel03 from "./../assets/carousel03.png";
 
 export default function Carousel() {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
@@ -123,7 +124,7 @@ export default function Carousel() {
               display: "flex",
             }}
           >
-            <img src={carousel01} alt="Carousel Image 01" />
+            <img src={carousel01} title="Brown Bag Discussions" />
           </div>
           <div
             style={{
@@ -137,18 +138,7 @@ export default function Carousel() {
             }}
           >
             <div>
-              <img src={carousel02} alt="Carousel Image 02" />
-              <Typography
-                style={{
-                  fontSize: "14px",
-                  color: "#0f2938",
-                  textAlign: "center",
-                  margin: "10px",
-                  paddingLeft: "10px",
-                }}
-              >
-                NAWCAD Award Winners
-              </Typography>
+              <img src={carousel02} title="Memorial Day All-Hands Meeting" />
             </div>
           </div>
           <div
@@ -161,20 +151,9 @@ export default function Carousel() {
               display: "flex",
             }}
           >
-            slide 2
-          </div>
-          <div
-            style={{
-              width: 500,
-              height: 350,
-              background: "#D3E0E7",
-              margin: "10px",
-              justifyContent: "center",
-              alignItems: "center",
-              display: "flex",
-            }}
-          >
-            slide 3
+            <div>
+              <img src={carousel03} title="Memorial Day All-Hands Meeting" />
+            </div>
           </div>
         </ReactSimplyCarousel>
       </div>
