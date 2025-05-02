@@ -152,7 +152,7 @@ export default function Carousel() {
             }}
           >
             <div>
-              <img src={carousel03} title="Memorial Day All-Hands Meeting" />
+              <img src={carousel03} title="Happy Hour" />
             </div>
           </div>
         </ReactSimplyCarousel>
